@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Indigo_colorPrimaryDark">#c1c1c1</color>
+    <color name="Indigo_colorPrimary">#00bcd4</color>
+    <color name="Indigo_nav_color">#248f9b</color>
+    <color name="white">#f9f6f6</color>
+    <color name="brack">#000000</color>
+    <color name="tabcolor">#322c5c1b</color>
+    <color name="btncolor">#1c71cf</color>
+    <color name="lanse">#0F509A</color>
+    <color name="textcolor">#8f605f5f</color>
+    <color name="de_draft_color">#cb120f</color>
+    <color name="de_transparent">#00000000</color>
+    <color name="group_list_black_textview">#353535</color>
+    <color name="group_list_gray">#999999</color>
+
+
+
+</resources>

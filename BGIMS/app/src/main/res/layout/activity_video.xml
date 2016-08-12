@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="htf.scme.org.Activity.VideoActivity">
+
+    <htf.scme.org.bgims.MovieRecorderView
+        android:id="@+id/movieRecorderView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="3dp">
+
+    </htf.scme.org.bgims.MovieRecorderView>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/startvideo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="开始拍摄"/>
+
+</LinearLayout>

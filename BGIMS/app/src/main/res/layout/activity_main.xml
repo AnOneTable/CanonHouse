@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="htf.scme.org.Activity.MainActivity">
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="链接融云服务器" />
+
+    <Button
+        android:id="@+id/startconverslist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="启动会话列表" />
+
+    <Button
+        android:id="@+id/startqunliao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="开启群聊" />
+    <Button
+        android:id="@+id/startliaotianshi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="开启聊天室" />
+    <Button
+        android:id="@+id/startkefu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="15dp"
+        android:text="开启客服" />
+
+    <Button
+        android:id="@+id/starttaolunzu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="开启讨论组" />
+
+    <Button
+        android:id="@+id/startdanliao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="启动单聊" />
+    <Button
+        android:id="@+id/startgongzhonghao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="启动公众号" />
+    <Button
+        android:id="@+id/connect2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动2" />
+</LinearLayout>
