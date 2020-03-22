@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.demo.dao.TShopMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.demo.entity.TShop">
+        <id column="SHOP_ID" property="shopId" />
+        <result column="SHOP_NAME" property="shopName" />
+        <result column="SHOP_USER_NAME" property="shopUserName" />
+        <result column="ADDRESS" property="address" />
+        <result column="IPHONE" property="iphone" />
+        <result column="TAG_1" property="tag1" />
+        <result column="TAG_2" property="tag2" />
+        <result column="TAG_3" property="tag3" />
+        <result column="TAG_4" property="tag4" />
+        <result column="CREATE_DATA" property="createData" />
+        <result column="UPDATE_DATA" property="updateData" />
+        <result column="VERSION" property="version" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SHOP_ID, SHOP_NAME, SHOP_USER_NAME, ADDRESS, IPHONE, TAG_1, TAG_2, TAG_3, TAG_4, CREATE_DATA, UPDATE_DATA, VERSION
+    </sql>
+    <select id="queryAllShopInfos" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from t_shop
+    </select>
+</mapper>

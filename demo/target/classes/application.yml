@@ -1,0 +1,37 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    name: mysql
+    url: jdbc:mysql://49.233.186.206:3306/Ledger?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false&AllowPublicKeyRetrieval=true
+    username: root
+    password: Scme2013281%
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #���ӳ�����
+    druid:
+      initial-size: 20
+      min-idle: 10
+      max-active: 50
+      max-wait: 60000
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      validation-query: SELECT 1
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+mybatis-plus:
+  #  mapper-locations: classpath*:/mapper/**Mapper.xml
+  mapper-locations: com/demo/mapper/**/**Mapper.xml
+  type-aliases-package: com.demo.entity
+  global-config:
+    db-config:
+      id-type: id_worker
+      #�߼�ɾ������
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+      db-type: mysql
+    refresh: true
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false

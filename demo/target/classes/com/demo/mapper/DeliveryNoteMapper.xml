@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.demo.dao.DeliveryNoteMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.demo.entity.DeliveryNote">
+        <id column="id" property="id"/>
+        <result column="shop_id" property="shopId"/>
+        <result column="shop_name" property="shopName"/>
+        <result column="category" property="category"/>
+        <result column="unit" property="unit"/>
+        <result column="quantity" property="quantity"/>
+        <result column="price" property="price"/>
+        <result column="total_price" property="totalPrice"/>
+        <result column="delivery_time" property="deliveryTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, shop_id, shop_name, category, unit, quantity, price, total_price, delivery_time
+    </sql>
+
+    <select id="queryAllDeliveryNoteInfos" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from delivery_note
+    </select>
+
+    <select id="selectDeliveryNote" parameterType="int" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from delivery_note where shop_id = #{shopId}
+    </select>
+
+
+
+    <insert id="insertDeliveryNote" parameterType="com.demo.entity.DeliveryNote">
+        insert into delivery_note (shop_id,shop_name, category, unit, quantity, price, total_price, delivery_time)
+        value (#{shopId},#{shopName},#{category},#{unit},#{quantity},#{price},#{totalPrice},#{deliveryTime})
+    </insert>
+
+    <delete id="deleteDeliveryNote" parameterType="int">
+         delete  from delivery_note where id = #{id}
+    </delete>
+
+    <update id="updateDeliveryNote" parameterType="com.demo.entity.DeliveryNote">
+        update delivery_note SET shop_name=#{shopName},category=#{category},
+        unit=#{unit},quantity=#{quantity},price=#{price},total_price=#{totalPrice},delivery_time=#{deliveryTime}
+        where id=#{id}
+    </update>
+</mapper>
