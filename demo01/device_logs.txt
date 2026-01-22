@@ -1,0 +1,354 @@
+--------- beginning of main
+01-22 14:06:41.775  2322  2704 I OllieMsgCenter: publishEvt=2135097353
+01-22 14:06:41.896  1293  5504 I CPU_STATS: iawared: query next cpu load with 2!
+01-22 14:06:41.896  1293  5504 I CPU_STATS: total cost time 2011909375 ns
+01-22 14:06:41.898  1293  5504 I CPU_STATS: iawared: current total load is 0.007010, capacity : 3895, pre load:  93586751136272, current load : 93586804780047
+01-22 14:06:41.901  1293  5504 I CPU_STATS: read once cost time 4648 us
+01-22 14:06:42.046  1660  2040 I WifiNl80211Manager: Noise: -84, Snr: 18, Chload: 563, rssi: -53, txBitrate: 344, rxBitrate: 206, frequency: 5785, UlDelay: 0, currentTxBytes: 480151, currentTxPackets: 2745, currentTxFailed: 0, currentRxBytes: 974836, currentRxPackets: 3443
+01-22 14:06:42.047  1660  2039 I WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -53
+01-22 14:06:42.047  1660  2039 I QosMonitor: queryRtt: rttType = 3
+01-22 14:06:42.047  1660  2039 I QosMonitor: call ctrlHwWifiNetwork
+01-22 14:06:42.047  1660  2033 I HwDualBandManager: handle2gApStrongWifiRssiChange
+01-22 14:06:42.048  1660  2040 I HuaweiWifiWatchdogStateMachine: high data flow: protection_counter = 0,  not_detect_counter = 68
+01-22 14:06:42.048  1660  2040 I HuaweiWifiWatchdogStateMachine: high data flow scenario: 0 --> 0 rx rate =0KB/s
+01-22 14:06:42.048  1660  2033 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:42.050  1660  2039 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=10
+01-22 14:06:42.051  1660  2039 I QosMonitor: resetRtt: rttType = 3
+01-22 14:06:42.051  1660  2039 I QosMonitor: call ctrlHwWifiNetwork
+01-22 14:06:42.094  1021  1172 E aptouch_daemon: TsaFrame::CheckAfeStatus[1973]afe[99 120 0x1] [ctrl:0X100400a0 ftr:0Xc90100] dif[31 -21] raw[32906 32582] [exp:0X0 aN:1 lo:0]
+01-22 14:06:42.275  1660  1952 I TrafficMonitor: expired arrive. level:-1
+01-22 14:06:42.276  1660  1952 I TrafficMonitor: during_ms:2004,period_ms:2000
+01-22 14:06:42.276  1660  1952 I TrafficMonitor: count:212,rx_sum:2,tx_sum:0,rxBytes:690,during_ms:2004,rx_speed:344.311377245509,tx_speed:0.0,rto:0.0
+01-22 14:06:42.276  1660  1952 I HuaweiWifiWatchdogStateMachine: Get speed information rx_speed = 344 ,tx_speed = 0 ,isSpeedOk = false ,mBestSpeedInPeriod = 344
+01-22 14:06:43.074  1660  1952 I WifiNl80211Manager: Noise: -84, Snr: 20, Chload: 563, rssi: -51, txBitrate: 344, rxBitrate: 206, frequency: 5785, UlDelay: 0, currentTxBytes: 480151, currentTxPackets: 2745, currentTxFailed: 0, currentRxBytes: 974836, currentRxPackets: 3443
+01-22 14:06:43.079  1660  1952 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:43.147  1660  1969 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:43.292  1660  1952 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+01-22 14:06:43.292  1660  1952 I TrafficMonitor: gettimer:interval=2000
+01-22 14:06:43.790  2763  3543 I SmartChgBase/Arb_HidlParam: IsApplyExcept: can not GetRegexApplyExceptStr, return false. [ParamName:batt_status]
+01-22 14:06:43.790  2763  3543 I SmartChgBase/Arb_HidlParam: Apply.[moduleName:CVT, param:batt_status, detailsWithValue:source=trigger;event=heartbeat;chargestatus=start;value=0;]
+01-22 14:06:43.790  2763  3543 E SmartChgBase/Work: current work is nullptr
+01-22 14:06:43.791  2763  3543 D SmartChargeImpl: setHidlValue, hidlTagName = batt_status, value = 0
+--------- beginning of system
+01-22 14:06:43.792  1660  2747 I PowerManagerService: setPowerHidlValue scene: batt_status, value: 0
+01-22 14:06:43.793  1660  2747 I PowerManagerService-JNI: nativeRtSetPowerHidlValue is NOT null
+01-22 14:06:43.799  2322  2704 I SpeedTestNotifier: is low speed scene
+01-22 14:06:43.800  2322  2704 I OllieMsgCenter: publishEvt=2135097353
+01-22 14:06:43.800   827   827 I power_hidl: [PowerHidlExeSetState]: ExeSetState type=batt_status, value=0
+01-22 14:06:43.802   827   827 E power_hidl: [PowerHidlExeSetState]: type input error
+01-22 14:06:43.804  1660  2747 I PowerManagerService-JNI: rtCommSetPowerState result: 1
+01-22 14:06:43.804  1660  2747 I PowerManagerService: setPowerHidlValue ret: 1
+01-22 14:06:43.805  2763  3543 W SmartChargeImpl: setHidlValue occurs error, return value is 1
+01-22 14:06:43.805  2763  3543 E SmartChgBase/Data: SetJavaValue: set java value Hidlbatt_status error
+01-22 14:06:43.805  2763  3543 I SmartChgBase/Data: set scene=batt_status, value=0, ret=-200
+01-22 14:06:43.806  2763  3543 E SmartChgBase/Arb_HidlParam: SetHidlValue Fail: Hidl Set Fail [ret:-200, module:CVT, scene:batt_status, value:0]
+01-22 14:06:43.808  2763  3543 I SmartChgBase/Public: set property vendor.smc.batt_status=0
+01-22 14:06:43.808  2763  3543 I SmartChgBase/Arb_HidlParam: batt_status successfully set to 0
+01-22 14:06:43.809  2763  3543 I SmartChgBase/Arb_HidlParam: Apply Skipped: IsApplyExcept return true. [moduleName:BASP, param:dc_vterm_dec, detailsWithValue:source=trigger;event=heartbeat;chargestatus=start;value=0;]
+01-22 14:06:43.810  2763  3543 I SmartChgBase/Arb_HidlParam: Apply Skipped: IsApplyExcept return true. [moduleName:BASP, param:ichg_ratio, detailsWithValue:source=trigger;event=heartbeat;chargestatus=start;value=100;]
+01-22 14:06:43.811  2763  3543 I SmartChgBase/Arb_HidlParam: Apply Skipped: IsApplyExcept return true. [moduleName:BASP, param:nondc_vterm_dec, detailsWithValue:source=trigger;event=heartbeat;chargestatus=start;value=0;]
+01-22 14:06:43.811  2763  3543 I SmartChgBase/Arb_HidlParam: Apply Skipped: IsApplyExcept return true. [moduleName:ASW, param:soc_control, detailsWithValue:source=trigger;event=heartbeat;chargestatus=start;value=1 95 100 1 1;]
+01-22 14:06:43.814  2763  3528 E SmartChgBase/File: file /data/user_de/0/com.huawei.systemmanager/files/smart_charge/base/mock/enable is invalid in IsFileExist
+01-22 14:06:43.815  2763  3528 D SmartChargeImpl: getHidlValue, hidlTagName = vbat
+01-22 14:06:43.815  1660  2747 I PowerManagerService: getPowerHidlValue scene: vbat
+01-22 14:06:43.815  1660  2747 I PowerManagerService-JNI: nativeRtGetPowerHidlValue is NOT null
+01-22 14:06:43.818   827   827 I power_hidl: [PowerHidlExeGetState]: ExeGetState type=vbat
+01-22 14:06:43.818   827   827 I power_hidl: [PowerHidlGetImplObject]: PowerHidlGetImplObject i=19, name=vbat, platform=0x1
+01-22 14:06:43.818   827   827 I power_hidl: [PowerHidlCommonReadStr]: PowerHidlCommonReadStr ret=0 path=/sys/class/power_supply/Battery/voltage_now
+01-22 14:06:43.818   827   827 I power_hidl: [PowerHidlExeGetState]: ExeGetState success, type=vbat, index=21, value=4429957
+01-22 14:06:43.818   827   827 I power_hidl: 
+01-22 14:06:43.819  1660  2747 I PowerManagerService-JNI: rtCommGetPowerState powerHidlValue: 4429957
+01-22 14:06:43.819  1660  2747 I PowerManagerService-JNI: , powerHidlResult: 0
+01-22 14:06:43.819  1660  2747 I PowerManagerService: nativeRtGetPowerHidlValue: 4429957
+01-22 14:06:43.819  2763  3528 I SmartChgBase/Data: get scene=vbat, value=4429957
+01-22 14:06:43.819  2763  3528 I SmartChgBase/Data: , ret=0
+01-22 14:06:43.819  2763  3528 E SmartChgBase/File: file /data/user_de/0/com.huawei.systemmanager/files/smart_charge/base/mock/enable is invalid in IsFileExist
+01-22 14:06:43.892  1263  1780 W dubaid  : [ShellTempManager.cpp] UpdateShellTemp# Delta temperature bigger than stepMaxRange, use last temperature.
+01-22 14:06:43.893  1263  1780 W dubaid  : [ShellTempManager.cpp] UpdateShellTemp# Delta temperature bigger than stepMaxRange, use last temperature.
+01-22 14:06:43.894  1263  1780 W dubaid  : [ShellTempManager.cpp] UpdateShellTemp# Delta temperature bigger than stepMaxRange, use last temperature.
+01-22 14:06:43.904  2367  3055 W AwareLog: UniScheduleDMEPlugin: add load record in temp
+01-22 14:06:43.904  2367  3055 W AwareLog: UniScheduleDMEPlugin: downgradeSwitch is not open.
+01-22 14:06:43.905  1293  5504 I CPU_STATS: iawared: query next cpu load with 2!
+01-22 14:06:43.906  1293  5504 I CPU_STATS: total cost time 2009356249 ns
+01-22 14:06:43.908  1293  5504 I CPU_STATS: iawared: current total load is 0.003904, capacity : 3895, pre load:  93586804780047, current load : 93586834618394
+01-22 14:06:43.911  1293  5504 I CPU_STATS: read once cost time 5318 us
+01-22 14:06:43.996  1278  9272 I CodecTracker: start
+01-22 14:06:43.997  1278  9272 I CodecTracker:  tId: 10160, pId: 1278, type: c2.android.vorbis.decoder, pkgName: com.huawei.game.kitserver, mimeType: audio/raw, width: 0, height: 0, frameRate: 0, macroblocks: 0, lifeCycle: UNINITIALIZED->INITIALIZING->INITIALIZED->CONFIGURING->CONFIGURED->STARTING->STARTED, scene: 1
+01-22 14:06:45.131 28926 28926 W libc    : Access denied finding property "hw_mc.performance.rawtrace.on"
+01-22 14:06:45.131 28926 28926 D HiTraceC: entered HiTraceInit, Log Registered: 1
+01-22 14:06:45.131 28926 28926 E storage_info: storage_info: IsTimeForUpload path log/storage/ exist
+01-22 14:06:45.132 28926 28926 I storage_info: HwCustType is 0
+01-22 14:06:45.132 28926 28926 E storage_info: open file error
+01-22 14:06:45.132 28926 28926 I storage_info: no cota live update cust policy found
+01-22 14:06:45.132 28926 28926 I storage_info: GetCfgDirRealPolicyValue: custPolicyDirs: /system/emui/base:/system/emui/china:/system/emui/pad:/vendor/etc:/odm/cust/all/cn:/odm/etc:/odm/hw_odm/TGRM-W30DM:/hw_product/etc:/hw_product/region_comm/china:/preas/china:/hw_product/hw_oem/TGRM-W30DM:/preload/TGRM-W30DM/all/cn:/cust/global:/cust/hw/cn:/version/cust/all/cn:/version/special_cust/TGRM-W30DM/all/cn:/cust/cotalite:/cust/ecota
+01-22 14:06:45.132 28926 28926 I storage_info: storage_info: LifetimeEnabled: lifetime enabled
+01-22 14:06:45.133 28926 28926 E storage_info: storage_info: GetIOLatency GetIOLatency Success
+01-22 14:06:45.127 28926 28926 W storage_info: type=1400 audit(0.0:60740): avc: denied { read } for name="u:object_r:default_prop:s0" dev="tmpfs" ino=289 scontext=u:r:storage_info:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+01-22 14:06:45.127 28926 28926 W storage_info: type=1400 audit(0.0:60741): avc: denied { search } for name="cota" dev="sdd88" ino=641 scontext=u:r:storage_info:s0 tcontext=u:object_r:hw_cust_file:s0 tclass=dir permissive=0
+01-22 14:06:45.296  1660  1952 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+01-22 14:06:45.296  1660  1952 I TrafficMonitor: gettimer:interval=2000
+01-22 14:06:45.757  9225  9244 I bms_behavior: [WaitConditionStatus]: runState = 1, cvStatus = 1 
+01-22 14:06:45.763  9225  9244 E bms_file: [BmsFileReadBuffer]: file /sys/class/hw_power/charger/direct_charger_sc4/direct_charge_succ is invalid
+01-22 14:06:45.777  9225  9244 E bms_file: [BmsFileReadBuffer]: file /sys/class/hw_power/charger/direct_charger_sc4/direct_charge_succ is invalid
+01-22 14:06:45.785  9225  9244 E bms_file: [BmsFileReadBuffer]: file /sys/class/hw_power/coul/coul_data/rbatt is invalid
+01-22 14:06:45.788  9225  9244 I bms_behavior: [Monitor]: monitor interval count 1513, name: Battery
+01-22 14:06:45.810  2322  2704 I OllieMsgCenter: publishEvt=2135097353
+01-22 14:06:45.925  1293  5504 I CPU_STATS: iawared: query next cpu load with 2!
+01-22 14:06:45.926  1293  5504 I CPU_STATS: total cost time 2019865625 ns
+01-22 14:06:45.927  1293  5504 I CPU_STATS: iawared: current total load is 0.003914, capacity : 3895, pre load:  93586834618394, current load : 93586864686838
+01-22 14:06:45.930  1293  5504 I CPU_STATS: read once cost time 4737 us
+01-22 14:06:46.070  1660  2040 I WifiNl80211Manager: Noise: -80, Snr: 9, Chload: 649, rssi: -53, txBitrate: 344, rxBitrate: 206, frequency: 5785, UlDelay: 0, currentTxBytes: 480151, currentTxPackets: 2745, currentTxFailed: 0, currentRxBytes: 974836, currentRxPackets: 3443
+01-22 14:06:46.071  1660  2039 I WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -53
+01-22 14:06:46.071  1660  2039 I QosMonitor: queryRtt: rttType = 3
+01-22 14:06:46.071  1660  2039 I QosMonitor: call ctrlHwWifiNetwork
+01-22 14:06:46.071  1660  2033 I HwDualBandManager: handle2gApStrongWifiRssiChange
+01-22 14:06:46.072  1660  2033 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:46.075  1660  2039 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=10
+01-22 14:06:46.076  1660  2039 I QosMonitor: resetRtt: rttType = 3
+01-22 14:06:46.076  1660  2039 I QosMonitor: call ctrlHwWifiNetwork
+01-22 14:06:46.111  1660  1952 I WifiNl80211Manager: Noise: -80, Snr: 9, Chload: 649, rssi: -53, txBitrate: 344, rxBitrate: 206, frequency: 5785, UlDelay: 0, currentTxBytes: 480151, currentTxPackets: 2745, currentTxFailed: 0, currentRxBytes: 974836, currentRxPackets: 3443
+01-22 14:06:46.116  1660  1952 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:46.140   842  1193 I VSyncPredictor: setPeriod: 16666666
+01-22 14:06:46.150  1660  1969 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:47.300  1660  1952 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+01-22 14:06:47.301  1660  1952 I TrafficMonitor: gettimer:interval=2000
+01-22 14:06:47.824  2322  2704 I OllieMsgCenter: publishEvt=2135097353
+01-22 14:06:47.938  1293  5504 I CPU_STATS: iawared: query next cpu load with 2!
+01-22 14:06:47.938  1293  5504 I CPU_STATS: total cost time 2012212500 ns
+01-22 14:06:47.940  1293  5504 I CPU_STATS: iawared: current total load is 0.003962, capacity : 3895, pre load:  93586864686838, current load : 93586895007807
+01-22 14:06:47.942  1293  5504 I CPU_STATS: read once cost time 4569 us
+01-22 14:06:48.306  1660  1952 I TrafficMonitor: expired arrive. level:-1
+01-22 14:06:48.307  1660  1952 I TrafficMonitor: during_ms:2004,period_ms:2000
+01-22 14:06:48.307  1660  1952 I TrafficMonitor: count:215,rx_sum:0,tx_sum:0,rxBytes:0,during_ms:2004,rx_speed:0.0,tx_speed:0.0,rto:0.0
+01-22 14:06:48.307  1660  1952 I HuaweiWifiWatchdogStateMachine: Get speed information rx_speed = 0 ,tx_speed = 0 ,isSpeedOk = false ,mBestSpeedInPeriod = 0
+01-22 14:06:48.874  1263  1779 E dubaid  : [WakelockStats.cpp] SaveKernelWakelockData# Invalid wakelock tag:             
+01-22 14:06:48.876  1263  1779 E dubaid  : [WakelockStats.cpp] ReadKernelWakelock# Failed to parse kernel wakelock message:             	64783		64783		0		0		0		7518		31		88206967		0
+01-22 14:06:48.882  1263  1344 E dubaid  : [SchemaTable.cpp] GetTableAttribute# There is no table named debug_data_polling
+01-22 14:06:48.887  1263  1776 I ServiceManager: Waiting for service 'chr_service' on '/dev/binder'...
+01-22 14:06:48.887  1263  1726 D dubaid  : [BufferedLogServer.cpp] ReceiveMessage# Received buffered log from dubai_driver-0
+01-22 14:06:48.890  1263  1726 D dubaid  : [BufferedLogServer.cpp] ReceiveMessage# Received buffered log from dubai_driver-0
+01-22 14:06:48.897  2158  6991 I HwDubaiService: Received buffered log, magic: 5
+01-22 14:06:48.898  2158  2342 I NcDft_NcDftChip: TriggerEventReport:909009519
+01-22 14:06:48.899  2158  2346 I NcDft_NcDftChip: NcChipDftEvent receive:NcChipDftEvent{Id=909009519, Length=48, Flag=0}
+01-22 14:06:48.903  1263  1780 W dubaid  : [ShellTempManager.cpp] UpdateShellTemp# Delta temperature bigger than stepMaxRange, use last temperature.
+01-22 14:06:48.903  1263  1780 W dubaid  : [ShellTempManager.cpp] UpdateShellTemp# Delta temperature bigger than stepMaxRange, use last temperature.
+01-22 14:06:48.904  1263  1780 W dubaid  : [ShellTempManager.cpp] UpdateShellTemp# Delta temperature bigger than stepMaxRange, use last temperature.
+01-22 14:06:48.909  2367  3055 W AwareLog: UniScheduleDMEPlugin: add load record in temp
+01-22 14:06:48.909  2367  3055 W AwareLog: UniScheduleDMEPlugin: downgradeSwitch is not open.
+01-22 14:06:48.912  1263  1344 E dubaid  : [SchemaTable.cpp] GetTableAttribute# There is no table named debug_data_polling
+01-22 14:06:48.912  1263  1344 E dubaid  : [SchemaTable.cpp] GetTableAttribute# There is no table named debug_data_polling
+01-22 14:06:48.912  1263  1344 E dubaid  : [SchemaTable.cpp] GetTableAttribute# There is no table named debug_data_polling
+01-22 14:06:48.912  1263  1344 E dubaid  : [SchemaTable.cpp] GetTableAttribute# There is no table named debug_data_polling
+01-22 14:06:48.917  1263  1344 I dubaid  : [DubaiStorage.cpp] DoFlushEntriesBuffer# Flush all entries into database: /data/system_ce/0/dubai/dubai.db
+01-22 14:06:48.924  1263  1779 I dubaid  : [DubaiUtils.cpp] PowerPushToPg# code: 207, tag: wakelock, message: 0+kernel+PowerManager.SuspendLockout+0+644769+551051+0+429702#0+kernel+PowerManagerService.Display+0+644769+551051+0+429723#0+kernel+charge_wakelock+93720+644769+644775+0+7605964#0+kernel+hisi_tcpc_attach_wakelock+93721+644769+644776+0+7605969#0+kernel+upc_vbus_wakelock+1307+644769+11911+1118+6#0+kernel+usb_wake_lock+93719+644769+644775+0+7605968
+01-22 14:06:49.138  1660  1952 I WifiNl80211Manager: Noise: -74, Snr: 32, Chload: 565, rssi: -54, txBitrate: 344, rxBitrate: 206, frequency: 5785, UlDelay: 0, currentTxBytes: 480151, currentTxPackets: 2745, currentTxFailed: 0, currentRxBytes: 975347, currentRxPackets: 3445
+01-22 14:06:49.145  1660  1952 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:49.154  1660  1969 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:49.174   842  1193 I VSyncPredictor: setPeriod: 16666666
+01-22 14:06:49.308  1660  1952 I TrafficMonitor: update:rxPkts:4,txPkts:0,rxBytes:906,txBytes:0
+01-22 14:06:49.309  1660  1952 I TrafficMonitor: gettimer:interval=2000
+01-22 14:06:49.373  1660  1713 I AppOpsHandlerWrapper: coming in msg: 2
+01-22 14:06:49.373  1660  1713 I AppOpsHistoricalMgr: handle msg: 2
+01-22 14:06:49.402  2158  6991 E NcDft_NcDftMisc: trigger wifi rate&power event fail
+01-22 14:06:49.402  1660  1713 I AppOpsHistoricalMgr: 104 records stored
+01-22 14:06:49.402  1660  1713 I TaskFwk : Slow operation: 30ms so far, TaskHandler is: AppOpsHandlerWrapper, msg is { when=-33ms realwhen=88208460 isVsync=false isAsynchronous=false what=2 target=android.os.task.IoTaskHandler$1 }
+01-22 14:06:49.403  1660  1713 W Looper  : Slow dispatch took 30ms TaskFwk:TaskSchedulerIO h=android.os.task.IoTaskHandler$1 c=null m=2
+01-22 14:06:49.403  2158  2342 I NcDft_NcDftChip: TriggerEventReport:909009520
+01-22 14:06:49.403  1660  1713 I AppOpsHandlerWrapper: coming in msg: 1
+01-22 14:06:49.403  1660  1713 I AppOpsHistoricalMgr: handle msg: 1
+01-22 14:06:49.404  1660  1713 I AppOpsHistoricalMgr: OverdueDataCleanupHandler cleanup finished: reduced size:0, left total size:15450
+01-22 14:06:49.404  1660  1713 I AppOpsHistoricalMgr: QuantityLimitedDataCleanupHandler cleanup finished: reduced size:0, left total size:15450
+01-22 14:06:49.404  1660  1713 W Looper  : Slow delivery took 17ms TaskFwk:TaskSchedulerIO h=android.os.task.IoTaskHandler$1 c=null m=1
+01-22 14:06:49.411  2158  2346 I NcDft_NcDftChip: NcChipDftEvent receive:NcChipDftEvent{Id=909009520, Length=32, Flag=0}
+01-22 14:06:49.524  1660  2044 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:49.527  1660  2044 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 52
+01-22 14:06:49.527  1660  2044 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 68
+01-22 14:06:49.528  1660  2044 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:49.529  1660  2044 D wifiserviceimpl: netmask =16580607
+01-22 14:06:49.550  1660  2044 I HwWifiProServiceProxy: pair = Pair{true 15}, Bundle = Bundle[{time=15, arpResult=true}]
+01-22 14:06:49.551  1660  2044 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 63
+01-22 14:06:49.551  1660  2044 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 2
+01-22 14:06:49.551  1660  2044 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:49.555  2158  2343 E NcDft_Wifi2Component: cannot handle the message1001
+01-22 14:06:49.555  2158  2343 D HwCHRWifiRSSIGroupSummery: updatArpSummery rssi:-1 HwCHRWifiRSSIGroup [mRssiIndex=4, mRttTcpPackets=0, mRttTcpDuration=0, mRttLanDuration=8199, mRttLanFailures=3, mRttLanSucc=1307, mRttLanMax=160, mRttLanMin=2,mSameFrequency=3,mAdjacentFrequency=0]
+01-22 14:06:49.555  2158  2343 E NcDft_Wifi2Component: cannot handle the message1001
+01-22 14:06:49.831  2322  2704 I OllieMsgCenter: publishEvt=2135097353
+01-22 14:06:49.905  2158  6991 E NcDft_NcDftMisc: trigger wifi worktime event fail
+01-22 14:06:49.907  2158  2342 I NcDft_NcDftChip: TriggerEventReport:909009599
+01-22 14:06:49.910  2158  2346 I NcDft_NcDftChip: NcChipDftEvent receive:NcChipDftEvent{Id=909009599, Length=232, Flag=0}
+01-22 14:06:49.945  1293  5504 I CPU_STATS: iawared: query next cpu load with 2!
+01-22 14:06:49.946  1293  5504 I CPU_STATS: total cost time 2007866145 ns
+01-22 14:06:49.948  1293  5504 I CPU_STATS: iawared: current total load is 0.007100, capacity : 3895, pre load:  93586895007807, current load : 93586949232391
+01-22 14:06:49.951  1293  5504 I CPU_STATS: read once cost time 5280 us
+01-22 14:06:50.081  1660  2040 I WifiNl80211Manager: Noise: -74, Snr: 32, Chload: 565, rssi: -54, txBitrate: 344, rxBitrate: 206, frequency: 5785, UlDelay: 0, currentTxBytes: 480151, currentTxPackets: 2745, currentTxFailed: 0, currentRxBytes: 975347, currentRxPackets: 3445
+01-22 14:06:50.082  1660  2039 I WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -54
+01-22 14:06:50.082  1660  2039 I QosMonitor: queryRtt: rttType = 3
+01-22 14:06:50.082  1660  2039 I QosMonitor: call ctrlHwWifiNetwork
+01-22 14:06:50.083  1660  2033 I HwDualBandManager: handle2gApStrongWifiRssiChange
+01-22 14:06:50.083  1660  2033 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:50.084  1660  2040 I HuaweiWifiWatchdogStateMachine: high data flow: protection_counter = 0,  not_detect_counter = 69
+01-22 14:06:50.084  1660  2040 I HuaweiWifiWatchdogStateMachine: high data flow scenario: 0 --> 0 rx rate =0KB/s
+01-22 14:06:50.085  1660  2039 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=10
+01-22 14:06:50.086  1660  2039 I QosMonitor: resetRtt: rttType = 3
+01-22 14:06:50.086  1660  2039 I QosMonitor: call ctrlHwWifiNetwork
+01-22 14:06:50.410  2158  6991 E NcDft_NcDftMisc: trigger detail event fail
+01-22 14:06:50.412  1263  1726 D dubaid  : [BufferedLogServer.cpp] ReceiveMessage# Received buffered log from DubaiService-5
+01-22 14:06:50.441  1263  1344 E dubaid  : [SchemaTable.cpp] GetTableAttribute# There is no table named debug_data_polling
+01-22 14:06:50.458  1263  1344 I dubaid  : [DubaiStorage.cpp] DoFlushEntriesBuffer# Flush all entries into database: /data/system_ce/0/dubai/dubai.db
+01-22 14:06:50.485  1660  1838 I UEventObserver: update g_lastMsgCount, from 55 to 65
+01-22 14:06:50.616  1660  2033 I WifiProStatisticsManager: checkIfNeedUpload time left(mins):232
+01-22 14:06:50.791  9225  9244 I bms_behavior: [WaitConditionStatus]: runState = 1, cvStatus = 1 
+01-22 14:06:50.794  9225  9244 E bms_file: [BmsFileReadBuffer]: file /sys/class/hw_power/charger/direct_charger_sc4/direct_charge_succ is invalid
+01-22 14:06:50.808  9225  9244 E bms_file: [BmsFileReadBuffer]: file /sys/class/hw_power/charger/direct_charger_sc4/direct_charge_succ is invalid
+01-22 14:06:50.820  9225  9244 E bms_file: [BmsFileReadBuffer]: file /sys/class/hw_power/coul/coul_data/rbatt is invalid
+01-22 14:06:50.823  9225  9244 I bms_behavior: [Monitor]: monitor interval count 1514, name: Battery
+01-22 14:06:51.321  1660  1952 I TrafficMonitor: update:rxPkts:7,txPkts:0,rxBytes:1341,txBytes:0
+01-22 14:06:51.322  1660  1952 I TrafficMonitor: gettimer:interval=5000
+01-22 14:06:51.834  2322  2704 I OllieMsgCenter: publishEvt=2135097353
+01-22 14:06:51.918  1660  1696 I HWMW_HwMagicWindowManagerService: case Utils.MSG_REPORT_USAGE_STATISTICS:
+01-22 14:06:51.918  1660  1696 I HWMW_HwMagicWinStatistics: Not Ready To Trigger report
+01-22 14:06:51.953  1293  5504 I CPU_STATS: iawared: query next cpu load with 2!
+01-22 14:06:51.953  1293  5504 I CPU_STATS: total cost time 2007665625 ns
+01-22 14:06:51.956  1293  5504 I CPU_STATS: iawared: current total load is 0.005066, capacity : 3895, pre load:  93586949232391, current load : 93586987918362
+01-22 14:06:51.961  1293  5504 I CPU_STATS: read once cost time 7224 us
+01-22 14:06:52.158  1660  1969 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:52.174  1660  1952 I WifiNl80211Manager: Noise: -72, Snr: 7, Chload: 589, rssi: -53, txBitrate: 344, rxBitrate: 206, frequency: 5785, UlDelay: 0, currentTxBytes: 480217, currentTxPackets: 2746, currentTxFailed: 0, currentRxBytes: 977725, currentRxPackets: 3457
+01-22 14:06:52.179  1660  1952 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:52.187  1660  1952 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 2
+01-22 14:06:52.187  1660  1952 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:52.190  1660  1952 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 2
+01-22 14:06:52.190  1660  1952 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:52.194  2158  2343 E NcDft_Wifi2Component: cannot handle the message1001
+01-22 14:06:52.195  2158  2343 E HwWifiCHRStateManager: cannot match the bundle msg id 1129
+01-22 14:06:52.195  2158  2343 E NcDft_Wifi2Component: cannot handle the message1001
+01-22 14:06:52.195  2158  2343 E HwWifiCHRStateManager: cannot match the bundle msg id 1130
+01-22 14:06:52.206   842  1193 I VSyncPredictor: setPeriod: 16666666
+01-22 14:06:52.376  2158  2343 I NcDft_Wifi2StatStoreImpl: setConnectedDuration ignore
+01-22 14:06:52.376  2158  2343 I NcDft_Wifi2StatStoreImpl: dumpWifi2StatRecord start
+01-22 14:06:52.376  2158  2343 I NcDft_Wifi2StatStoreImpl: updateWifi2StatBySsidStat ignore
+01-22 14:06:52.376  2158  2343 I NcDft_Wifi2StatStoreImpl: resetWifi2StatRecord
+01-22 14:06:52.376  2158  2343 I NcDft_Wifi2StatStoreImpl: dumpSsidStatRecord ignore
+01-22 14:06:53.042  2481  2917 I CommonThreadPool: checkTaskOverRun begin: futureMap size = 0
+01-22 14:06:53.043  2481  2917 I CommonThreadPool: checkTaskOverRun end: futureMap size = 0
+01-22 14:06:53.842  2322  2704 I OllieMsgCenter: publishEvt=2135097353
+01-22 14:06:53.894  1263  1780 W dubaid  : [ShellTempManager.cpp] UpdateShellTemp# Delta temperature bigger than stepMaxRange, use last temperature.
+01-22 14:06:53.896  1263  1780 W dubaid  : [ShellTempManager.cpp] UpdateShellTemp# Delta temperature bigger than stepMaxRange, use last temperature.
+01-22 14:06:53.898  1263  1780 W dubaid  : [ShellTempManager.cpp] UpdateShellTemp# Delta temperature bigger than stepMaxRange, use last temperature.
+01-22 14:06:53.908  2367  3055 W AwareLog: UniScheduleDMEPlugin: add load record in temp
+01-22 14:06:53.908  2367  3055 W AwareLog: UniScheduleDMEPlugin: downgradeSwitch is not open.
+01-22 14:06:53.914  1263  1776 W ServiceManager: Service chr_service didn't start. Returning NULL
+01-22 14:06:53.967  1293  5504 I CPU_STATS: iawared: query next cpu load with 2!
+01-22 14:06:53.967  1293  5504 I CPU_STATS: total cost time 2013852604 ns
+01-22 14:06:53.969  1293  5504 I CPU_STATS: iawared: current total load is 0.004203, capacity : 3895, pre load:  93586987918362, current load : 93587020113630
+01-22 14:06:53.972  1293  5504 I CPU_STATS: read once cost time 5069 us
+01-22 14:06:54.105  1660  2040 I WifiNl80211Manager: Noise: -85, Snr: 21, Chload: 495, rssi: -51, txBitrate: 344, rxBitrate: 206, frequency: 5785, UlDelay: 0, currentTxBytes: 480217, currentTxPackets: 2746, currentTxFailed: 0, currentRxBytes: 978398, currentRxPackets: 3459
+01-22 14:06:54.106  1660  2040 D HuaweiWifiWatchdogStateMachine: nothing to do
+01-22 14:06:54.106  1660  2039 I WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -51
+01-22 14:06:54.106  1660  2039 I QosMonitor: queryRtt: rttType = 3
+01-22 14:06:54.106  1660  2040 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 1, 0. Lr =0% Totpkt=1
+01-22 14:06:54.107  1660  2039 I QosMonitor: call ctrlHwWifiNetwork
+01-22 14:06:54.107  1660  2033 I HwDualBandManager: handle2gApStrongWifiRssiChange
+01-22 14:06:54.108  1660  2033 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:54.110  1660  2039 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=10
+01-22 14:06:54.110  1660  2039 I QosMonitor: call ctrlHwWifiNetwork
+01-22 14:06:54.111  1660  2039 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=10
+01-22 14:06:54.112  1660  2039 I MQoS    : rtt=340,tcpTxPkts=22627,tcpRxPkts=22033
+01-22 14:06:54.112  1660  8438 I HwConnectivityServiceEx: set 1000, metered: false, value: false
+01-22 14:06:54.114  1660  2040 I HuaweiWifiWatchdogStateMachine: PTcp RTT:0, rtt pkt=0, tcp_rx=0, tcp_tx=0, tcp_reTran=0, rtRate=0
+01-22 14:06:54.115  1660  2040 I HuaweiWifiWatchdogStateMachine: start computeQosLevel tcpRtt = 0 ,rssi = -51 ,mBestSpeedInPeriod = 0
+01-22 14:06:54.115  1660  2040 I HuaweiWifiWatchdogStateMachine: smoothConsecutiveQosResults, currentQosLevel = 3
+01-22 14:06:54.116  1660  2039 I QosMonitor: resetRtt: rttType = 3
+01-22 14:06:54.116  1660  2039 I QosMonitor: call ctrlHwWifiNetwork
+01-22 14:06:54.121  1660  8438 I MQoS    : QOS_level:0(0),wifi-link;SIM error;use level-0
+01-22 14:06:54.310  1660  1952 I TrafficMonitor: expired arrive. level:-1
+01-22 14:06:54.310  1660  1952 I TrafficMonitor: during_ms:2013,period_ms:2000
+01-22 14:06:54.310  1660  1952 I TrafficMonitor: count:217,rx_sum:7,tx_sum:0,rxBytes:1341,during_ms:2013,rx_speed:666.1698956780924,tx_speed:0.0,rto:0.0
+01-22 14:06:54.310  1660  1952 I HuaweiWifiWatchdogStateMachine: Get speed information rx_speed = 666 ,tx_speed = 0 ,isSpeedOk = false ,mBestSpeedInPeriod = 666
+01-22 14:06:54.359  2481  2830 I SoftBusComm: LoopTask[BusCenter], get message. handle=statisticEvtReportHandler,what=0,arg1=4213524706486084467,msgSize=2,time=88213436805
+01-22 14:06:54.359  2481  2830 D SoftBusComm: LoopTask[BusCenter], HandleMessage message. handle=statisticEvtReportHandler,what=0
+01-22 14:06:54.359  2481  2830 I SoftBusComm: [BusCenter]PostMessageAtTime what =0 time= 88513450326 us
+01-22 14:06:54.359  2481  2830 D SoftBusComm: [BusCenter]PostMessageAtTime. insert
+01-22 14:06:54.360  2481  2830 D SoftBusComm: DumpLooper. i=0,handler=statisticEvtReportHandler,what =0,arg1=4213524706486084467 arg2=7142757594709586464, time=88513450326
+01-22 14:06:54.360  2481  2830 I SoftBusComm: LoopTask[BusCenter], after HandleMessage message. what=0,arg1=4213524706486084467
+01-22 14:06:54.583  2307  9611 I HwSearchService: [IndexServiceGuarderHandler]: IndexRAMMonitor: 49MB ram is used
+01-22 14:06:54.748  2322  3038 I UEventObserver: update g_lastMsgCount, from 35 to 44
+01-22 14:06:54.919  1263  1776 I ServiceManager: Waiting for service 'chr_service' on '/dev/binder'...
+01-22 14:06:55.175  1660  1969 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:55.198  1660  1952 I WifiNl80211Manager: Noise: -81, Snr: 32, Chload: 663, rssi: -51, txBitrate: 344, rxBitrate: 206, frequency: 5785, UlDelay: 0, currentTxBytes: 480217, currentTxPackets: 2746, currentTxFailed: 0, currentRxBytes: 978398, currentRxPackets: 3459
+01-22 14:06:55.204  1660  1952 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:55.224   842  1193 I VSyncPredictor: setPeriod: 16666666
+01-22 14:06:55.326  2481  2830 I SoftBusComm: LoopTask[BusCenter], get message. handle=LnnAsyncHandler,what=0,arg1=0,msgSize=2,time=88214383988
+01-22 14:06:55.326  2481  2830 D SoftBusComm: LoopTask[BusCenter], HandleMessage message. handle=LnnAsyncHandler,what=0
+01-22 14:06:55.326  2481  2830 I SoftBusLnn: [LnnDumpLocalBasicInfo] local DeviceInfo [udid:69EA***E7CC, uuid:68C6***873F, networkId:5E20***8B7B
+01-22 14:06:55.326  2481  2830 I SoftBusLnn: get LocalIp =.249
+01-22 14:06:55.326  2481  2830 I SoftBusLnn: [LnnDumpLocalBasicInfo] devType:PAD, deviceTypeId:17, deviceName:HUAWEI MatePad 11.5"S 灵动款, ip=*.*.*.249, brMac=**:**:**:**:TOOSHORT, p2pMac=**:**:**:**:b0:22, onlineNodeNum:0]
+01-22 14:06:55.326  2481  2830 I SoftBusLnn: [IsHeartbeatEnable] HB condition state: bt=0, screenUnlock=1, account=1, trustedRelation=0, background=0, nightMode=0, OOBEEnd=1, heartbeatEnable=1, request=1
+01-22 14:06:55.326  2481  2830 I SoftBusComm: [BusCenter]PostMessageAtTime what =0 time= 88514417202 us
+01-22 14:06:55.326  2481  2830 D SoftBusComm: [BusCenter]PostMessageAtTime. insert
+01-22 14:06:55.326  2481  2830 D SoftBusComm: DumpLooper. i=0,handler=LnnAsyncHandler,what =0,arg1=0 arg2=0, time=88514417202
+01-22 14:06:55.326  2481  2830 I SoftBusComm: LoopTask[BusCenter], after HandleMessage message. what=0,arg1=0
+01-22 14:06:55.356  2481  3156 I SoftBusComm: LoopTask[Heartbeat-Looper], get message. handle=LnnHbFsm-0,what=1,arg1=4,msgSize=0,time=88214440297
+01-22 14:06:55.356  2481  3156 D SoftBusComm: LoopTask[Heartbeat-Looper], HandleMessage message. handle=LnnHbFsm-0,what=1
+01-22 14:06:55.356  2481  3156 D SoftBusLnn: [LnnDumpHbMgrRecvList] DumpHbMgrRecvList count=0
+01-22 14:06:55.357  2481  3156 D SoftBusLnn: [LnnDumpHbOnlineNodeList] DumpHbOnlineNodeList count=0
+01-22 14:06:55.357  2481  3156 D SoftBusLnn: HB heartbeat is disabled, hbType(4)
+01-22 14:06:55.357  2481  3156 W SoftBusLnn: HB send once get hbType(4) is not available
+01-22 14:06:55.357  2481  3156 I SoftBusComm: [Heartbeat-Looper]PostMessageAtTime what =1 time= 88514447633 us
+01-22 14:06:55.357  2481  3156 D SoftBusComm: [Heartbeat-Looper]PostMessageAtTime. insert
+01-22 14:06:55.357  2481  3156 D SoftBusComm: DumpLooper. i=0,handler=LnnHbFsm-0,what =1,arg1=4 arg2=0, time=88514447633
+01-22 14:06:55.357  2481  3156 D SoftBusLnn: HB post next loop msg, delayMillis: 300000
+01-22 14:06:55.357  2481  3156 I SoftBusLnn: HB FSM process msg(4) succ, state=2
+01-22 14:06:55.357  2481  3156 I SoftBusComm: LoopTask[Heartbeat-Looper], after HandleMessage message. what=1,arg1=4
+01-22 14:06:55.829  9225  9244 I bms_behavior: [WaitConditionStatus]: runState = 1, cvStatus = 1 
+01-22 14:06:55.837  9225  9244 E bms_file: [BmsFileReadBuffer]: file /sys/class/hw_power/charger/direct_charger_sc4/direct_charge_succ is invalid
+01-22 14:06:55.846  2322  2704 I OllieMsgCenter: publishEvt=2135097353
+01-22 14:06:55.864  9225  9244 E bms_file: [BmsFileReadBuffer]: file /sys/class/hw_power/charger/direct_charger_sc4/direct_charge_succ is invalid
+01-22 14:06:55.873  9225  9244 E bms_file: [BmsFileReadBuffer]: file /sys/class/hw_power/coul/coul_data/rbatt is invalid
+01-22 14:06:55.876  9225  9244 I bms_behavior: [Monitor]: monitor interval count 1515, name: Battery
+01-22 14:06:55.975  1293  5504 I CPU_STATS: iawared: query next cpu load with 2!
+01-22 14:06:55.976  1293  5504 I CPU_STATS: total cost time 2008548437 ns
+01-22 14:06:55.978  1293  5504 I CPU_STATS: iawared: current total load is 0.004207, capacity : 3895, pre load:  93587020113630, current load : 93587052252419
+01-22 14:06:55.980  1293  5504 I CPU_STATS: read once cost time 4574 us
+01-22 14:06:56.333  1660  1952 I TrafficMonitor: update:rxPkts:4,txPkts:1,rxBytes:1680,txBytes:71
+01-22 14:06:56.334  1660  1952 I TrafficMonitor: gettimer:interval=2000
+01-22 14:06:56.507  2763  3535 I UEventObserver: update g_lastMsgCount, from 34 to 43
+01-22 14:06:57.446  1660  2164 I SWAP_NandLife: nandlife hour cycle:curNandLCInfoIs 490.0 99.0 42.40815972222222 5.003692129629627 7.0 18.25 0.94140625 0.125
+01-22 14:06:57.448  1660  2164 E SWAP_KernIntf: readLifeTimePreEolInfo: 1
+01-22 14:06:57.448  1660  2164 I SWAP_ParaConf: nandlife red line open
+01-22 14:06:57.479  1660  2164 E SWAP_KernIntf: readLifeTimePreEolInfo: 1
+01-22 14:06:57.479  1660  2164 I SWAP_ParaConf: nandlife write boost keep open
+01-22 14:06:57.557  2262  2441 I HwLBSService HigeoLocationManager: doingBusinessFlag=0
+01-22 14:06:57.558  2262  2441 I HwLBSService CommonFunciton: handleIsDoingBusiness, isNlpRunning:false,isIndoorCrowdSoucing:false,isHmsNlpRunning:false,isHmsCrowdSoucing:false,isHwLicRunning:false,isHwVicRunning:false
+01-22 14:06:57.575  2262  2441 I HwLBSService.HwLbsDaemon: lbs pss: 12435
+01-22 14:06:57.581  2262  2441 I HwLBSService.HwLbsDaemon: after gc lbs pss: 12435
+01-22 14:06:57.850  2322  2704 I OllieMsgCenter: publishEvt=2135097353
+01-22 14:06:57.990  1293  5504 I CPU_STATS: iawared: query next cpu load with 2!
+01-22 14:06:57.990  1293  5504 I CPU_STATS: total cost time 2014232291 ns
+01-22 14:06:57.992  1293  5504 I CPU_STATS: iawared: current total load is 0.003784, capacity : 3895, pre load:  93587052252419, current load : 93587081245267
+01-22 14:06:57.995  1293  5504 I CPU_STATS: read once cost time 4682 us
+01-22 14:06:58.129  1660  2040 I WifiNl80211Manager: Noise: -72, Snr: 34, Chload: 728, rssi: -54, txBitrate: 344, rxBitrate: 206, frequency: 5785, UlDelay: 0, currentTxBytes: 480326, currentTxPackets: 2747, currentTxFailed: 0, currentRxBytes: 979248, currentRxPackets: 3461
+01-22 14:06:58.129  1660  2040 D HuaweiWifiWatchdogStateMachine: nothing to do
+01-22 14:06:58.131  1660  2039 I WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -54
+01-22 14:06:58.132  1660  2040 I HuaweiWifiWatchdogStateMachine: high data flow: protection_counter = 0,  not_detect_counter = 70
+01-22 14:06:58.132  1660  2040 I HuaweiWifiWatchdogStateMachine: high data flow scenario: 0 --> 0 rx rate =0KB/s
+01-22 14:06:58.132  1660  2039 I QosMonitor: queryRtt: rttType = 3
+01-22 14:06:58.132  1660  2039 I QosMonitor: call ctrlHwWifiNetwork
+01-22 14:06:58.133  1660  2033 I HwDualBandManager: handle2gApStrongWifiRssiChange
+01-22 14:06:58.133  1660  2040 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 2, 0. Lr =0% Totpkt=2
+01-22 14:06:58.134  1660  2039 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=10
+01-22 14:06:58.134  1660  2033 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:58.134  1660  2039 I QosMonitor: call ctrlHwWifiNetwork
+01-22 14:06:58.136  1660  2039 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=10
+01-22 14:06:58.136  1660  2039 I MQoS    : rtt=340,tcpTxPkts=22628,tcpRxPkts=22033
+01-22 14:06:58.137  1660  8438 I HwConnectivityServiceEx: set 1000, metered: false, value: false
+01-22 14:06:58.142  1660  2040 I HuaweiWifiWatchdogStateMachine: PTcp RTT:0, rtt pkt=0, tcp_rx=0, tcp_tx=1, tcp_reTran=0, rtRate=0
+01-22 14:06:58.142  1660  2040 I HuaweiWifiWatchdogStateMachine: start computeQosLevel tcpRtt = 0 ,rssi = -54 ,mBestSpeedInPeriod = 666
+01-22 14:06:58.142  1660  2040 I HuaweiWifiWatchdogStateMachine: smoothConsecutiveQosResults, currentQosLevel = 3
+01-22 14:06:58.143  1660  2039 I QosMonitor: resetRtt: rttType = 3
+01-22 14:06:58.143  1660  2039 I QosMonitor: call ctrlHwWifiNetwork
+01-22 14:06:58.143  1660  8438 I MQoS    : QOS_level:0(0),wifi-link;SIM error;use level-0
+01-22 14:06:58.143  1660  8438 I MQoS    : skip-low-Level:0(0),wifi-link;SIM error;use level-0
+01-22 14:06:58.183  1660  1969 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:58.221  1660  1952 I WifiNl80211Manager: Noise: -72, Snr: 34, Chload: 728, rssi: -54, txBitrate: 344, rxBitrate: 206, frequency: 5785, UlDelay: 0, currentTxBytes: 480326, currentTxPackets: 2747, currentTxFailed: 0, currentRxBytes: 979248, currentRxPackets: 3461
+01-22 14:06:58.226  1660  1952 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@680567d
+01-22 14:06:58.241   842  1193 I VSyncPredictor: setPeriod: 16666666
